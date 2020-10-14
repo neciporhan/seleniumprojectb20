@@ -5,7 +5,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Britrix24_AC3_UserStory9 {
+
+public class Britrix24_AC3_UserStory11 {
 
     public static void main(String[] args) throws InterruptedException {
         WebDriverManager.chromedriver().setup();
@@ -17,7 +18,7 @@ public class Britrix24_AC3_UserStory9 {
         driver.findElement(By.xpath("//input[@type='submit']")).click();
         driver.manage().window().maximize();
         Thread.sleep(1000);
-        driver.findElement(By.xpath("//*[@id=\"event-locationcal_3Jcl\"]")).click();
+        driver.findElement(By.xpath("//*[@id=\"feed-cal-additional-inner\"]")).click();
         Thread.sleep(1000);
     }
 }
