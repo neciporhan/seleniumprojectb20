@@ -1,18 +1,18 @@
 package com.cybertek.tests.day12_review_jsexecutor_pom;
 
+
 import com.cybertek.utilities.BrowserUtils;
 import com.cybertek.utilities.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class UploadPractices {
+public class UploadPractice {
 
     @Test
     public void uploading_file_test(){
         //Getting the page
         Driver.getDriver().get("http://practice.cybertekschool.com/upload");
-        Driver.getDriver().manage().window().maximize();
 
         //get the path of the file you want to upload
         //MAC: right click on the file you want to upload
